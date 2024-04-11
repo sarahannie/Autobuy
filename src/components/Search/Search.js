@@ -6,7 +6,6 @@ const SearchComponent = () => {
   const [bodyType, setBodyType] = useState("");
   const [year, setYear] = useState("");
   const [price, setPrice] = useState("");
-
   const handleSearch = () => {
     // Implement your search logic here
     console.log("Searching...");
