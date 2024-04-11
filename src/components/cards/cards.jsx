@@ -8,6 +8,7 @@ import { BsFuelPumpDiesel } from "react-icons/bs";
 import { MdAirlineSeatLegroomExtra } from "react-icons/md";
 import { FaRegBookmark } from "react-icons/fa";
 import Cars from "../../assets/hans-isaacson.png";
+import { Link } from "react-router-dom";
 const Cards = () => {
   return (
     <div className={style.container}>
@@ -65,7 +66,9 @@ const Cards = () => {
         </div>
       </div>
       <div className={style.detail}>
-        <h2 className={style.detailView}>View Details</h2>
+        <Link to ="/car-details">
+          <h2 className={style.detailView}>View Details</h2>
+        </Link>
 
         <FaRegBookmark className={style.icon} />
       </div>
