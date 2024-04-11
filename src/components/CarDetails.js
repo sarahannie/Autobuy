@@ -8,11 +8,11 @@ function CarDetails() {
   return (
     <section>
       <Navbar />
-      <div className="w-full md:max-w-[1200px] md:mx-auto md:h-[499px] mt-8 mb-5">
+      <div className="w-full md:max-w-[1200px] md:mx-auto md:h-[499px] mt-8 mb-5 shadow">
         <CardD />
       </div>
 
-      <div className="mt-16 mx-3 md:mx-0">
+      <div className="mt-16 mx-4 md:mx-0">
         <div className="flex items-center w-full md:max-w-[1200px] md:mx-auto justify-between mt-5 mb-5">
           <p className=" text-[18px] md:text-[30px] font-bold text-[#003B6D] md:mb-5">
             Quattro 2020
@@ -66,12 +66,12 @@ function CarDetails() {
           </div>
         </section>
       </div>
-      <section className="flex  flex-col md:flex-row items-center w-full justify-between p-2 md:p-0 flex-wrap md:max-w-[1200px] md:mx-auto mt-10">
-        <div className="md:w-[50%]  w-full text-center md:text-start ">
+      <section className="flex  flex-col md:flex-row items-center w-full justify-between  md:p-0 flex-wrap md:max-w-[1200px] md:mx-auto mt-10">
+        <div className="md:w-[50%]  w-full  md:text-start px-4 ">
           <h3 className="text-[18px] text-[#003B6D] font-bold mb-1">
             Car Descriptions
           </h3>
-          <p className="text-[12px] md:text-[14px] text-[#36454F] font-medium">
+          <p className="text-[12px] md:text-[14px] text-[#36454F] font-medium flex-wrap">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
             vehicula justo ac mi fermentum, eget fermentum libero pharetra.
             Nullam euismod urna at justo scelerisque, ut cursus ipsum consequat.
@@ -86,7 +86,7 @@ function CarDetails() {
           <h3 className="text-[18px]  text-[#003B6D] font-bold md:ml-[30px]">
             Features
           </h3>
-          <div className="w-full md:w-[290px] md:ml-[275px] mt-3 flex  md:mx-auto flex-col gap-5">
+          <div className="w-full md:w-[290px] md:ml-[275px] mt-3 flex px-4 md:mx-auto flex-col gap-5">
             <div className="flex items-center gap-3 ">
               <FaRegCheckCircle className=" w-[15px] h-[15px]" />
               <p className=" text-[14px] md:text-[15px] text-[#36454F] font-medium">
@@ -121,11 +121,11 @@ function CarDetails() {
         </div>
       </section>
 
-      <section className="w-full justify-between md:max-w-[1200px] md:mx-auto p-2 md:p-0 mt-10 text-start">
-        <p className="text-[18px] text-center md:text-start text-[#003B6D] font-bold mb-2">
+      <section className="w-full justify-between md:max-w-[1200px] md:mx-auto p-4 md:p-0 mt-10 text-start">
+        <p className="text-[18px] text-center md:text-start text-[#003B6D] font-bold mb-2 mt-2 md:mt-0">
           Contact Information
         </p>
-        <div className="grid grid-cols-2 md:grid md:grid-cols-4 gap-3">
+        <div className="grid grid-cols-2 md:grid md:grid-cols-4 gap-4 md:gap-3 text-center md:text-start">
           <div className="text-[#36454F] font-bold text-[12px]">
             <h3 className="mb-1">Seller Name</h3>
             <p>Jane Smith</p>
