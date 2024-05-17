@@ -313,7 +313,7 @@ export function Addproduct() {
                 </div>
               </div>
 
-              <div class='w-[35%] h-[50%] p-6 border mb-7 shadow-lg rounded-lg'>
+              {/* <div class='w-[35%] h-[50%] p-6 border mb-7 shadow-lg rounded-lg'>
                 <div>
                   <div
                     className='w-[300px]  relative border-2 border-gray-300 border-dashed rounded-lg p-6'
@@ -486,7 +486,7 @@ export function Addproduct() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </form>
         </div>
